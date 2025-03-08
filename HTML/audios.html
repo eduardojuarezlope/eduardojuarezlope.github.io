@@ -1,0 +1,103 @@
+<!--
+FACULTAD DE ARQUITECTURA
+COLEGIO DE DISEÑO GRAFICO
+DISEÑO DE INTERFACES GRAFICAS
+
+EDUARDO JUÁREZ LÓPEZ
+
+-->
+   <html>
+    <head>
+        <title>Audios en html</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <style type="text/css">
+            main{
+                text-align: center;
+                padding-top: 50px;
+            }
+            section{
+                display: inline-block;
+                width: 25%;
+                min-width: 400px;
+                height: 600px;
+                margin-right: 10px;
+                margin-left: 10px;
+                overflow-y: auto;
+            }
+            audio,iframe{
+                margin-top: 20px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+           <div><a href="../index.html"><img style="width: 32px" src="../imagenes/icono-inicio.png"></a></div>
+            <h1>AUDIOS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="formatos_texto.html">Formatos</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audios.html">Audio</a></li>
+                <li><a href="videos.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Audio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ligula urna, at maximus ante lacinia in. Cras in ligula suscipit sem congue aliquet posuere sit amet ex. Proin at turpis sed felis molestie fringilla. Sed felis elit, accumsan non efficitur et, varius vitae turpis. Nunc enim lacus, pellentesque ac est a, consectetur congue massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                <audio controls>
+                    <source src="Audios/old_spice.mp3" type="audio/mp3">
+                    El navegador no puede reproducir el audio.
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con reproducción automatica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ligula urna, at maximus ante lacinia in. Cras in ligula suscipit sem congue aliquet posuere sit amet ex. Proin at turpis sed felis molestie fringilla. Sed felis elit, accumsan non efficitur et, varius vitae turpis. Nunc enim lacus, pellentesque ac est a, consectetur congue massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                <audio controls autoplay>
+                    <source src="Audios/golpe.mp3" type="audio/mp3">
+                    El navegador no puede reproducir el audio.
+                </audio>
+            </section>
+            <section>
+                <h2>Audio loop</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ligula urna, at maximus ante lacinia in. Cras in ligula suscipit sem congue aliquet posuere sit amet ex. Proin at turpis sed felis molestie fringilla. Sed felis elit, accumsan non efficitur et, varius vitae turpis. Nunc enim lacus, pellentesque ac est a, consectetur congue massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                <audio controls loop>
+                    <source src="Audios/old_spice.mp3" type="audio/mp3">
+                    El navegador no puede reproducir el audio.
+                </audio>
+            </section>
+            <section>
+                <h2>Audio con bucle</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ligula urna, at maximus ante lacinia in. Cras in ligula suscipit sem congue aliquet posuere sit amet ex. Proin at turpis sed felis molestie fringilla. Sed felis elit, accumsan non efficitur et, varius vitae turpis. Nunc enim lacus, pellentesque ac est a, consectetur congue massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                <audio controls loop muted autoplay>
+                <source src="Audios/old_spice.mp3" type="audio/mp3">
+                </audio>            
+                </section>
+            <section>
+                <h2>Audio ivoxx</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ligula urna, at maximus ante lacinia in. Cras in ligula suscipit sem congue aliquet posuere sit amet ex. Proin at turpis sed felis molestie fringilla. Sed felis elit, accumsan non efficitur et, varius vitae turpis. Nunc enim lacus, pellentesque ac est a, consectetur congue massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                <iframe src="https://www.ivoox.com/player_ej_63551181_6_1.html?c1=f47ca4" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Audio spotify</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ligula urna, at maximus ante lacinia in. Cras in ligula suscipit sem congue aliquet posuere sit amet ex. Proin at turpis sed felis molestie fringilla. Sed felis elit, accumsan non efficitur et, varius vitae turpis. Nunc enim lacus, pellentesque ac est a, consectetur congue massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6bAlfC82cMGBV42KaROje8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section>
+                <h2>Audio playlist</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ligula urna, at maximus ante lacinia in. Cras in ligula suscipit sem congue aliquet posuere sit amet ex. Proin at turpis sed felis molestie fringilla. Sed felis elit, accumsan non efficitur et, varius vitae turpis. Nunc enim lacus, pellentesque ac est a, consectetur congue massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3H7Q09f16faqyDJwsx6adp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Eduardo Juárez López</h6>
+        </footer>
+    </body>
+</html>

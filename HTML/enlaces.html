@@ -1,0 +1,160 @@
+<!--
+FACULTAD DE ARQUITECTURA
+COLEGIO DE DISEÑO GRAFICO
+DISEÑO DE INTERFACES GRAFICAS
+
+EDUARDO JUÁREZ LÓPEZ
+
+-->
+<html>
+    <head>
+        <title>Enlaces en html</title>
+        <style type="text/css">
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            header,nav,main,footer{
+                width: 100%;
+                background-color: deeppink;
+                color: papayawhip;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                height: 150px;
+            }
+            nav{
+                height: auto;
+                background-color: hotpink;
+            }
+            main{
+                height: auto;
+                background-color: lightpink;
+            }
+            footer{
+                height: 40px;
+            }
+            section{
+                width: 60%;
+                height: 400px;
+                background-color: blanchedalmond;
+                color: palevioletred;
+                margin-bottom: 30px;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                overflow-y: auto;
+            }
+            h2{
+                margin-bottom: 20px;
+            }
+            header h1, footer h6{
+                text-align: center;
+            }
+            ul{
+                text-align: center;
+            }
+            ul li{
+                width: 10%;
+                height: 30px;
+                background-color: blanchedalmond;
+                color: palevioletred;
+                list-style-type: none;
+                display: inline-block;
+                text-align: center;
+                padding: 20px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:link{
+                color: deeppink;
+            }
+            a:visited{
+                color: deeppink;
+            }
+            a:active{
+                
+            }
+            a:hover{
+                color: dodgerblue;
+            }
+            nav ul li: hover{
+                background-color: deeppink;
+                width: 12%;
+            }
+            nav ul li a:hover{
+                color: bisque;
+            }
+            p{
+                margin-bottom: 20px;
+                text-align: justify;
+            }
+            main nav{
+                width: 50%;
+            }
+            main nav ul li{
+                width: 20%;
+            }
+        </style>
+    </head>    
+    <body>
+        <header>
+           <div><a href="../index.html"><img style="width: 32px" src="../imagenes/icono-inicio.png"></a></div>
+            <h1>ENLACES EN HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="formatos_texto.html">Formatos</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audios.html">Audio</a></li>
+                <li><a href="videos.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="externos">Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus, tellus sit amet rhoncus scelerisque, nisl ipsum blandit orci, nec venenatis augue risus in metus. Phasellus ullamcorper euismod nisi, in lobortis turpis cursus cursus. Aenean pulvinar finibus quam, vitae maximus nibh sagittis in. <a href="http://www.buap.mx" target="_blank">Benemerita Universidad Autonoma de Puebla</a>Etiam id neque porta, dapibus mauris eu, venenatis felis. Fusce magna nunc, interdum ac facilisis ac, cursus a ipsum. Nullam non purus non est facilisis aliquet in eget elit. Sed hendrerit, dui quis convallis facilisis, lacus urna hendrerit velit, eget convallis elit diam sit amet felis. Sed rutrum consectetur magna ac commodo. Etiam at tellus sed augue.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla erat dolor, ac viverra nisl consectetur at. Curabitur quis quam nec justo tempus eleifend quis et quam. Suspendisse vel molestie eros. Nam fermentum sit amet urna vel malesuada. Maecenas enim lacus, mollis eget pretium eget, lobortis sit amet lectus. Aliquam nec orci non justo tristique lobortis. Phasellus aliquet dolor ac massa placerat aliquet. Pellentesque mattis congue massa sit amet ultricies. Morbi hendrerit tempus ante, cursus efficitur est tristique ac. Vestibulum dignissim odio id quam vehicula blandit. Nulla vel mi semper, feugiat diam sed, consectetur arcu. Proin egestas convallis arcu id viverra. Vestibulum tincidunt pharetra faucibus. Cras fermentum mollis diam, at iaculis metus imperdiet vel.</p>
+            </section>
+            <section>
+                <h2 id="internos">Enlace internos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus, tellus sit amet rhoncus scelerisque, nisl ipsum blandit orci, nec venenatis augue risus in metus. Phasellus ullamcorper euismod nisi, in lobortis turpis cursus cursus. Aenean pulvinar finibus quam, vitae maximus nibh sagittis in.<a href="formatos_texto.html">Formatos de texto</a> Etiam id neque porta, dapibus mauris eu, venenatis felis. Fusce magna nunc, interdum ac facilisis ac, cursus a ipsum. Nullam non purus non est facilisis aliquet in eget elit. Sed hendrerit, dui quis convallis facilisis, lacus urna hendrerit velit, eget convallis elit diam sit amet felis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla erat dolor, ac viverra nisl consectetur at. Curabitur quis quam nec justo tempus eleifend quis et quam. Suspendisse vel molestie eros. Nam fermentum sit amet urna vel malesuada. Maecenas enim lacus, mollis eget pretium eget, lobortis sit amet lectus. Aliquam nec orci non justo tristique lobortis. Phasellus aliquet dolor ac massa placerat aliquet. Pellentesque mattis congue massa sit amet ultricies. Morbi hendrerit tempus ante, cursus efficitur est tristique ac. Vestibulum dignissim odio id quam vehicula blandit. Nulla vel mi semper, feugiat diam sed, consectetur arcu. Proin egestas convallis arcu id viverra. Vestibulum tincidunt pharetra faucibus. Cras fermentum mollis diam, at iaculis metus imperdiet vel.</p>
+            </section>
+            <section>
+                <h2 id="archivo">Enlace a archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus, tellus sit amet rhoncus scelerisque, nisl ipsum blandit orci, nec venenatis augue risus in metus. Phasellus ullamcorper euismod nisi, in lobortis turpis cursus cursus. Aenean pulvinar finibus quam, vitae maximus nibh sagittis in.<a href="Ju%C3%A1rez%20L%C3%B3pez%20Eduardo%20-%20Formatos%20texto.pdf" target="_blank">Codigo de practica de formato de texto</a> Etiam id neque porta, dapibus mauris eu, venenatis felis. Fusce magna nunc, interdum ac facilisis ac, cursus a ipsum. Nullam non purus non est facilisis aliquet in eget elit. Sed hendrerit, dui quis convallis facilisis.</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla erat dolor, ac viverra nisl consectetur at. Curabitur quis quam nec justo tempus eleifend quis et quam. Suspendisse vel molestie eros. Nam fermentum sit amet urna vel malesuada. Maecenas enim lacus, mollis eget pretium eget, lobortis sit amet lectus. Aliquam nec orci non justo tristique lobortis. Phasellus aliquet dolor ac massa placerat aliquet. Pellentesque mattis congue massa sit amet ultricies. Morbi hendrerit tempus ante, cursus efficitur est tristique ac. Vestibulum dignissim odio id quam vehicula blandit. Nulla vel mi semper, feugiat diam sed, consectetur arcu. Proin egestas convallis arcu id viverra. Vestibulum tincidunt pharetra faucibus. Cras fermentum mollis diam, at iaculis metus imperdiet vel.</p>
+            </section>
+            <section>
+                <h2 id="descarga">Enlace a descarga</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus, tellus sit amet rhoncus scelerisque, nisl ipsum blandit orci, nec venenatis augue risus in metus. Phasellus ullamcorper euismod nisi, in lobortis turpis cursus cursus. <a href="Ju%C3%A1rez%20L%C3%B3pez%20Eduardo%20-%20Formatos%20texto.png" download>Previzualización de pagina</a> Aenean pulvinar finibus quam, vitae maximus nibh sagittis in. Etiam id neque porta, dapibus mauris eu, venenatis felis. Fusce magna nunc, interdum ac facilisis ac.</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla erat dolor, ac viverra nisl consectetur at. Curabitur quis quam nec justo tempus eleifend quis et quam. Suspendisse vel molestie eros. Nam fermentum sit amet urna vel malesuada. Maecenas enim lacus, mollis eget pretium eget, lobortis sit amet lectus. Aliquam nec orci non justo tristique lobortis. Phasellus aliquet dolor ac massa placerat aliquet. Pellentesque mattis congue massa sit amet ultricies. Morbi hendrerit tempus ante, cursus efficitur est tristique ac. Vestibulum dignissim odio id quam vehicula blandit. Nulla vel mi semper, feugiat diam sed, consectetur arcu. Proin egestas convallis arcu id viverra. Vestibulum tincidunt pharetra faucibus. Cras fermentum mollis diam, at iaculis metus imperdiet vel.</p>
+            </section>
+            <nav>
+               <ul>
+            <li><a href="#externos">Externos</a></li>
+            <li><a href="#internos">Internos</a></li>
+            <li><a href="#archivo">Archivo</a></li>
+            <li><a href="#descarga">Descarga</a></li>
+               </ul>
+            </nav>
+        </main>
+        <footer>
+            <h6>Elaborado por Eduardo Juárez López</h6>
+        
+        </footer>
+    </body>
+
+</html>

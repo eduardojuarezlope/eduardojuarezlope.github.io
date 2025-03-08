@@ -1,0 +1,230 @@
+<!--
+FACULTAD DE ARQUITECTURA
+COLEGIO DE DISEÑO GRAFICO
+DISEÑO DE INTERFACES GRAFICAS
+
+EDUARDO JUÁREZ LÓPEZ
+
+-->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Parisienne&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,nav,main,footer{
+    width: 100%;
+    padding: 30px;
+    background-color: #8bbbff;
+    color: darkblue;
+}
+header,footer{
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+    height: auto;
+    background-color: #77a9ec;
+}
+main ul{
+    text-align: center;
+}
+nav ul li{
+    width: 10%;
+    min-width: 100px;
+    height: 30px;
+    background-color: #5086c6;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main{
+    height: auto;
+    background-color: #6498d9;
+    color: darkblue;
+}
+footer{
+    font-size: 24px;
+}
+section{
+    width: 70%;
+    height: auto;
+    background-color: #5086c6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    color: #640D5F;
+    overflow-y: auto;
+}
+p{
+    margin-top: 20px;
+}
+h2{
+    color: #8bbbff;
+}
+
+a{
+    text-decoration: none;
+            }
+            a:link{
+                color: blue;
+            }
+            a:visited{
+                color: #8bbbff;
+            }
+            a:active{
+                
+            }
+            a:hover{
+                color: dodgerblue;
+            }
+            nav ul li: hover{
+                background-color: deeppink;
+                width: 12%;
+            }
+            nav ul li a:hover{
+                color: bisque;
+            }
+            p{
+                margin-bottom: 20px;
+                text-align: justify;
+            }
+            main nav{
+                width: 50%;
+            }
+            main nav ul li{
+                width: 20%;
+            }
+img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#img_gif{
+    width: 30%;
+    border-radius: 50%;
+}
+.img_float{
+    width: 15%;
+    min-width: 10%;
+}
+#img_izq{
+    float: left;
+    margin: 0px;
+    margin-right: 20px;
+}
+#img_der{
+    float: right;
+    margin: 0px;
+    margin-left: 20px;
+}
+#img_ico{
+    width: 64px;
+    height: auto;
+    margin-right: 0;
+}
+#fondo{
+    height: 800px;
+    background-image: url("../imagenes1/San%20valentin4.jpg");
+    background-size: 100% auto;
+    background background-repeat: no-repeat;
+}
+video, iframe{
+    width: 50%;
+    margin-left: auto;
+    margin right: auto;
+    margin-top: 30px;
+    display: inline-block;
+}
+.box_videos{
+    text-align: center;
+}
+.box_videos section{
+    width: 40%;
+    min-width: 300px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 500px;
+    overflow-y: auto;
+}
+.box_section p{
+    text-align: justify;
+}
+h1{
+    font-family: "Parisienne", serif;
+}
+p{
+    font-family: "Red Hat Display", sans-serif;
+}
+form{
+    width: 50%;
+    background-color: deepskyblue;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: aqua;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+imput[type=text], imput[type=password]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+    border: 5px solid mediumslateblue;
+    border-radius: 10px;
+}
+imput[type=text]:focus,input[type=password]:focus{
+    background-color: lightsteelblue;
+    color: darkblue;
+    font-weight: bolder;
+    border: 10px solid aliceblue;
+}
+label{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+imput[type=submit]{
+    width: 20%;
+    min-width: 100px;
+    margin-bottom: 20px;
+    margin-top; 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 10px;
+    background-color: mediumaquamarine;
+    color: blue;
+    font-weight: bolder;
+}
+table{
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            table tr td{
+                text-align: center;
+                padding: 20px;
+            }
+            table td img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+}
